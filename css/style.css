@@ -102,6 +102,26 @@ a:hover {
 	font-weight: 300;
 }
 
+.text-color {
+	color: #0487c2ed !important
+}
+
+.card-inicio {
+	background-color: #f8fafbd9;
+    padding: 20px;
+	border-radius: 50px;
+	margin: 20px 0px;
+}
+
+.rec {
+	border: none;
+    font-size: 48px;
+    line-height: 1.1em;
+}
+
+.text-desc {
+	font-size: 26px !important;
+}
 
 .blink:hover {
 	opacity: 0.9;
@@ -433,14 +453,18 @@ h1 a.navbar-brand {
 
 
 
+
 /*===========================
   --- Featured section ----
 =========================== */
 
 section.featured {
-	padding: 200px 0 60px;
+	padding: 150px 0 60px;
 	background: #328cc1;
+	background-image: url(../img/portfolio/women-holding.jpg);
+	background-repeat: no-repeat;
 	color: #fdfdfd;
+	
 }
 
 section.featured h2.slogan {
