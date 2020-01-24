@@ -1149,4 +1149,19 @@ section.featured h3.slogan {
 }
 recomendacao{
 	font-weight: 400;
+	cursor: pointer;
+}
+
+.fa-chevron-down {
+	cursor: pointer;
+}
+
+.list-group-item img {
+	width: auto;
+}
+
+@media (max-width: 576px) { 
+	.list-group-item img {
+		width: 100% !important;
+	}
 }

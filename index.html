@@ -25,23 +25,26 @@
 
 <body>
   <section id="header" class="appear"></section>
-  <div class="navbar navbar-fixed-top" role="navigation" data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);" data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
+  <div class="navbar navbar-fixed-top" role="navigation"
+    data-0="line-height:100px; height:100px; background-color:rgba(0,0,0,0.3);"
+    data-300="line-height:60px; height:60px; background-color:rgba(0,0,0,1);">
     <div class="container">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-						<span class="fa fa-bars color-white"></span>
-					</button>
-        <h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">			&nbsp;UUDT-MA
-					</a></h1>
+          <span class="fa fa-bars color-white"></span>
+        </button>
+        <h1><a class="navbar-brand" href="index.html" data-0="line-height:90px;" data-300="line-height:50px;">
+            &nbsp;UUDT-MA
+          </a></h1>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
-<!--
+          <!--
           <li class="active"><a href="index.html">Home</a></li>
 -->
           <li><a href="#section-about">Aplicação</a></li>
           <li><a href="#section-works">Recomendações</a></li>
-<!--
+          <!--
           <li><a href="#section-contact">Contact</a></li>
 -->
         </ul>
@@ -57,9 +60,11 @@
           <div class="align-center card-inicio text-color">
             <i class="fa fa-flask fa-5x mar-bot20"></i>
             <h2 class="slogan text-color">UUDT-MA</h2>
-            <h3 class="slogan text-desc text-color"><i>Usability and User eXperience Design Technique for Mobile Application</i></h3>
+            <h3 class="slogan text-desc text-color"><i>Usability and User eXperience Design Technique for Mobile
+                Application</i></h3>
             <p class="text-color">
-              Uma técnica que contém recomendações referentes ao projeto de aplicações móveis, integrando princípios de UX e Usabilidade, com o intuito de apoiar os projetistas nas fases iniciais de desenvolvimento.
+              Uma técnica que contém recomendações referentes ao projeto de aplicações móveis, integrando princípios de
+              UX e Usabilidade, com o intuito de apoiar os projetistas nas fases iniciais de desenvolvimento.
             </p>
           </div>
         </div>
@@ -75,7 +80,8 @@
         <div class="col-md-offset-3 col-md-6">
           <div class="section-header">
             <h2 class="section-heading animated" data-animation="bounceInUp">Mode de Uso</h2>
-            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.</p>
+            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non
+              numquam.</p>
           </div>
         </div>
       </div>
@@ -141,7 +147,7 @@
         <div class="col-md-offset-3 col-md-6">
           <div class="section-header">
             <h2 class="section-heading animated" data-animation="bounceInUp">Lista de Recomendações</h2>
-<!--
+            <!--
             <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit, sed quia non numquam.</p>
 -->
           </div>
@@ -149,204 +155,496 @@
       </div>
 
       <div class="row">
-            <ul class="list-group col-md-12">
-              <li class="list-group-item" data-toggle="collapse" data-target="#rec1">
-                <recomendacao>
-                  Recomendação 1: &nbsp;Redução da sobrecarga cognitiva - conteúdo
-                </recomendacao>
-                <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
-                <ol type="a" class="collapse" id="rec1">
-                  <div class="row">
-                    <div class="col-md-5">
-                      <p class="descricao">Devido ao tamanho das telas dos dispositivos móveis, o conteúdo das aplicações móveis exige uma carga cognitiva maior. Desse modo, há necessidade de diminuir a quantidade de cliques efetuados pelo usuário, como também a quantidade de informações apresentada na tela do dispositivo.</p>
-                    </div>
-                    <div class="col-md-5">
-                      <img src="img/regra/regra1.jpg">
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-md-12">
-                      <p>(Ao tratar-se de um protótipo é válido anotar algumas especificações de uso pretendidas em bloco de notas e colar ao lado da funcionalidade a que se pretende usar, pois há interações, como preenchimento automático de campos, que não podem ser representados em protótipos de baixo de nível).</p>
-                    </div>
-                  </div>
-                </ol>
-              </li>
-            </ul>
+        <ul class="list-group col-md-12">
+          <li class="list-group-item" data-toggle="collapse" data-target="#rec1">
+            <recomendacao>
+              Recomendação 1: &nbsp;Redução da sobrecarga cognitiva - conteúdo
+            </recomendacao>
+            <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
+            <ol type="a" class="collapse descricao" id="rec1">
+              <!-- Texto e Imagem na mesma linha -->
+              <div class="row">
+                <div class="col-md-5 col-sm-12">
+                  <strong class="descricao">Comportamento</strong>
+                  <p class="descricao">Devido ao tamanho das telas dos dispositivos móveis, o conteúdo das aplicações
+                    móveis exige uma carga cognitiva maior. Desse modo, há necessidade de diminuir a quantidade de
+                    cliques efetuados pelo usuário, como também a quantidade de informações apresentada na tela do
+                    dispositivo.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <img src="img/regra/regra1.jpg">
+                </div>
+              </div>
+              <!-- Texto que pega a linha inteira -->
+              <div class="row">
+                <div class="col-md-12">
+                  <p class="descricao">(Ao tratar-se de um protótipo é válido anotar algumas especificações de uso
+                    pretendidas em bloco de notas e colar ao lado da funcionalidade a que se pretende usar, pois há
+                    interações, como preenchimento automático de campos, que não podem ser representados em protótipos
+                    de baixo de nível).</p>
+                </div>
+              </div>
+            </ol>
+          </li>
+        </ul>
 
-            <ul class="list-group  col-md-12">
-              <li class="list-group-item" data-toggle="collapse" data-target="#rec2">
-                <recomendacao>
-                  Recomendação 2: &nbsp;Redução da sobrecarga cognitiva - reconhecimento em vez de lembrança
-                </recomendacao>
-                <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
-                <ol type="a" class="collapse" id="rec2">
-                  <p class="descricao">blablablalaballbaa</p>
-                </ol>
-              </li>
-            </ul>
+        <ul class="list-group  col-md-12">
+          <li class="list-group-item" data-toggle="collapse" data-target="#rec2">
+            <recomendacao>
+              Recomendação 2: &nbsp;Redução da sobrecarga cognitiva - reconhecimento em vez de lembrança
+            </recomendacao>
+            <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
+            <ol type="a" class="collapse descricao" id="rec2">
+              <div class="row">
+                <div class="col-md-5 col-sm-12">
+                  <strong class="descricao">Componente</strong>
+                  <p class="descricao">Em um aplicativo móvel tem-se a necessidade de padronizar os ícones da interface,
+                    conforme cada ação pretendida pelo usuário, para que possam ser intuitivos, interativos e usuais.
+                  </p>
+                  <p class="descricao"> Por exemplo: alguns aplicativos móveis fornecem uma padronização da linguagem
+                    visual da interface, que sintetiza os princípios clássicos do bom design. Isto permite o
+                    reconhecimento das ações do usuário.</p>
+                  <p class="descricao"> Outro exemplo, o ícone da “lixeira” que é utilizado frequentemente por meio das
+                    redes sociais, sendo facilmente relembrado pelo usuário.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <img src="img/regra/regra1.jpg">
+                </div>
+              </div>
+            </ol>
+          </li>
+        </ul>
 
-            <ul class="list-group  col-md-12">
-              <li class="list-group-item" data-toggle="collapse" data-target="#rec3">
-                <recomendacao>
-                  Recomendação 3: &nbsp;Prevenção e análise de erros
-                </recomendacao>
-                <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
-                <ol type="a" class="collapse" id="rec3">
-                  <p class="descricao">blablablalaballbaa</p>
-                </ol>
-              </li>
-            </ul>
+        <ul class="list-group  col-md-12">
+          <li class="list-group-item" data-toggle="collapse" data-target="#rec3">
+            <recomendacao>
+              Recomendação 3: &nbsp;Prevenção e análise de erros
+            </recomendacao>
+            <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
+            <ol type="a" class="collapse descricao" id="rec3">
+              <div class="row">
+                <div class="col-md-5 col-sm-12">
+                  <strong class="descricao">Comportamento</strong>
+                  <p class="descricao">Melhor do que prevenir, é evitar que o usuário cometa erros. Com isso, mensagens
+                    de erros podem ser adicionadas no sistema para alertar os usuários sobre possíveis erros a serem
+                    cometidos.
+                  </p>
+                  <p class="descricao"> Por exemplo, recomenda-se que os links e ações fornecidos no sistema direcionem
+                    o usuário para o que deve ser realizado, de acordo com seu interesse. </p>
+                  <p class="descricao">Além disso, quando o usuário clica indesejavelmente em excluir, deve-se aparecer
+                    uma mensagem de confirmação, para que o usuário tenha certeza da ação a ser realizada e permitindo
+                    desse modo, a confiabilidade da ação pretendida.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <img src="img/regra/regra1.jpg">
+                </div>
+              </div>
+            </ol>
+          </li>
+        </ul>
 
-            <ul class="list-group  col-md-12">
-              <li class="list-group-item" data-toggle="collapse" data-target="#rec4">
-                <recomendacao>
-                  Recomendação 4: &nbsp;Controle e autonomia do usuário
-                </recomendacao>
-                <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
-                <ol type="a" class="collapse" id="rec4">
-                  <p class="descricao">blablablalaballbaa</p>
-                </ol>
-              </li>
-            </ul>
+        <ul class="list-group  col-md-12">
+          <li class="list-group-item" data-toggle="collapse" data-target="#rec4">
+            <recomendacao>
+              Recomendação 4: &nbsp;Controle e autonomia do usuário
+            </recomendacao>
+            <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
+            <ol type="a" class="collapse descricao" id="rec4">
+              <div class="row">
+                <div class="col-md-5 col-sm-12">
+                  <strong class="descricao">Componente</strong>
+                  <p class="descricao">Devido ao tamanho das telas dos dispositivos móveis, o conteúdo das aplicações
+                    móveis exige uma carga cognitiva maior. Desse modo, há necessidade de diminuir a quantidade de
+                    cliques efetuados pelo usuário, como também a quantidade de informações apresentada na tela do
+                    dispositivo.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <img src="img/regra/regra1.jpg">
+                </div>
+              </div>
+              <!-- Texto que pega a linha inteira -->
+              <div class="row">
+                <div class="col-md-12">
+                  <strong class="descricao">Comportamento </strong>
+                  <p class="descricao">(Ao tratar-se de um protótipo é válido anotar algumas especificações de uso
+                    pretendidas em bloco de notas e colar ao lado da funcionalidade a que se pretende usar, pois há
+                    interações, como preenchimento automático de campos, que não podem ser representados em protótipos
+                    de baixo de nível).</p>
+                </div>
+              </div>
+            </ol>
+          </li>
+        </ul>
 
-            <ul class="list-group  col-md-12">
-              <li class="list-group-item" data-toggle="collapse" data-target="#rec5">
-                <recomendacao>
-                  Recomendação 5: &nbsp;Feedback informativo
-                </recomendacao>
-                <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
-                <ol type="a" class="collapse" id="rec5">
-                  <p class="descricao">blablablalaballbaa</p>
-                </ol>
-              </li>
-            </ul>
+        <ul class="list-group  col-md-12">
+          <li class="list-group-item" data-toggle="collapse" data-target="#rec5">
+            <recomendacao>
+              Recomendação 5: &nbsp;Feedback informativo
+            </recomendacao>
+            <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
+            <ol type="a" class="collapse descricao" id="rec5">
+              <div class="row">
+                <div class="col-md-5 col-sm-12">
+                  <strong class="descricao">Componente</strong>
+                  <p class="descricao">Devido ao tamanho das telas dos dispositivos móveis, o conteúdo das aplicações
+                    móveis exige uma carga cognitiva maior. Desse modo, há necessidade de diminuir a quantidade de
+                    cliques efetuados pelo usuário, como também a quantidade de informações apresentada na tela do
+                    dispositivo.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <img src="img/regra/regra1.jpg">
+                </div>
+              </div>
+              <!-- Texto que pega a linha inteira -->
+              <div class="row">
+                <div class="col-md-12">
+                  <strong class="descricao">Comportamento </strong>
+                  <p class="descricao">(Ao tratar-se de um protótipo é válido anotar algumas especificações de uso
+                    pretendidas em bloco de notas e colar ao lado da funcionalidade a que se pretende usar, pois há
+                    interações, como preenchimento automático de campos, que não podem ser representados em protótipos
+                    de baixo de nível).</p>
+                </div>
+              </div>
+            </ol>
+          </li>
+        </ul>
 
-            <ul class="list-group  col-md-12">
-              <li class="list-group-item" data-toggle="collapse" data-target="#rec6">
-                <recomendacao>
-                  Recomendação 6: &nbsp;Personalização
-                </recomendacao>
-                <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
-                <ol type="a" class="collapse" id="rec6">
-                  <p class="descricao">blablablalaballbaa</p>
-                </ol>
-              </li>
-            </ul>
+        <ul class="list-group  col-md-12">
+          <li class="list-group-item" data-toggle="collapse" data-target="#rec6">
+            <recomendacao>
+              Recomendação 6: &nbsp;Personalização
+            </recomendacao>
+            <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
+            <ol type="a" class="collapse descricao" id="rec6">
+              <div class="row">
+                <div class="col-md-5 col-sm-12">
+                  <strong class="descricao">Componente</strong>
+                  <p class="descricao">Devido ao tamanho das telas dos dispositivos móveis, o conteúdo das aplicações
+                    móveis exige uma carga cognitiva maior. Desse modo, há necessidade de diminuir a quantidade de
+                    cliques efetuados pelo usuário, como também a quantidade de informações apresentada na tela do
+                    dispositivo.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <img src="img/regra/regra1.jpg">
+                </div>
+              </div>
+              <!-- Texto que pega a linha inteira -->
+              <div class="row">
+                <div class="col-md-12">
+                  <strong class="descricao">Comportamento </strong>
+                  <p class="descricao">(Ao tratar-se de um protótipo é válido anotar algumas especificações de uso
+                    pretendidas em bloco de notas e colar ao lado da funcionalidade a que se pretende usar, pois há
+                    interações, como preenchimento automático de campos, que não podem ser representados em protótipos
+                    de baixo de nível).</p>
+                </div>
+              </div>
+            </ol>
+          </li>
+        </ul>
 
-            <ul class="list-group  col-md-12">
-              <li class="list-group-item" data-toggle="collapse" data-target="#rec7">
-                <recomendacao>
-                  Recomendação 7: &nbsp;Navegação minimalista
-                </recomendacao>
-                <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
-                <ol type="a" class="collapse" id="rec7">
-                  <p class="descricao">blablablalaballbaa</p>
-                </ol>
-              </li>
-            </ul>
+        <ul class="list-group  col-md-12">
+          <li class="list-group-item" data-toggle="collapse" data-target="#rec7">
+            <recomendacao>
+              Recomendação 7: &nbsp;Navegação minimalista
+            </recomendacao>
+            <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
+            <ol type="a" class="collapse descricao" id="rec7">
+              <div class="row">
+                <div class="col-md-5 col-sm-12">
+                  <strong class="descricao">Componente</strong>
+                  <p class="descricao">Devido ao tamanho das telas dos dispositivos móveis, o conteúdo das aplicações
+                    móveis exige uma carga cognitiva maior. Desse modo, há necessidade de diminuir a quantidade de
+                    cliques efetuados pelo usuário, como também a quantidade de informações apresentada na tela do
+                    dispositivo.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <img src="img/regra/regra1.jpg">
+                </div>
+              </div>
+              <!-- Texto que pega a linha inteira -->
+              <div class="row">
+                <div class="col-md-12">
+                  <strong class="descricao">Comportamento </strong>
+                  <p class="descricao">(Ao tratar-se de um protótipo é válido anotar algumas especificações de uso
+                    pretendidas em bloco de notas e colar ao lado da funcionalidade a que se pretende usar, pois há
+                    interações, como preenchimento automático de campos, que não podem ser representados em protótipos
+                    de baixo de nível).</p>
+                </div>
+              </div>
+            </ol>
+          </li>
+        </ul>
 
-            <ul class="list-group  col-md-12">
-              <li class="list-group-item" data-toggle="collapse" data-target="#rec8">
-                <recomendacao>
-                  Recomendação 8: &nbsp;Notificação
-                </recomendacao>
-                <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
-                <ol type="a" class="collapse" id="rec8">
-                  <p class="descricao">blablablalaballbaa</p>
-                </ol>
-              </li>
-            </ul>
+        <ul class="list-group  col-md-12">
+          <li class="list-group-item" data-toggle="collapse" data-target="#rec8">
+            <recomendacao>
+              Recomendação 8: &nbsp;Notificação
+            </recomendacao>
+            <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
+            <ol type="a" class="collapse descricao" id="rec8">
+              <div class="row">
+                <div class="col-md-5 col-sm-12">
+                  <strong class="descricao">Componente</strong>
+                  <p class="descricao">Devido ao tamanho das telas dos dispositivos móveis, o conteúdo das aplicações
+                    móveis exige uma carga cognitiva maior. Desse modo, há necessidade de diminuir a quantidade de
+                    cliques efetuados pelo usuário, como também a quantidade de informações apresentada na tela do
+                    dispositivo.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <img src="img/regra/regra1.jpg">
+                </div>
+              </div>
+              <!-- Texto que pega a linha inteira -->
+              <div class="row">
+                <div class="col-md-12">
+                  <strong class="descricao">Comportamento </strong>
+                  <p class="descricao">(Ao tratar-se de um protótipo é válido anotar algumas especificações de uso
+                    pretendidas em bloco de notas e colar ao lado da funcionalidade a que se pretende usar, pois há
+                    interações, como preenchimento automático de campos, que não podem ser representados em protótipos
+                    de baixo de nível).</p>
+                </div>
+              </div>
+            </ol>
+          </li>
+        </ul>
 
-            <ul class="list-group  col-md-12">
-              <li class="list-group-item" data-toggle="collapse" data-target="#rec9">
-                <recomendacao>
-                  Recomendação 9: &nbsp;Interface – padrão e consistência
-                </recomendacao>
-                <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
-                <ol type="a" class="collapse" id="rec9">
-                  <p class="descricao">blablablalaballbaa</p>
-                </ol>
-              </li>
-            </ul>
+        <ul class="list-group  col-md-12">
+          <li class="list-group-item" data-toggle="collapse" data-target="#rec9">
+            <recomendacao>
+              Recomendação 9: &nbsp;Interface – padrão e consistência
+            </recomendacao>
+            <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
+            <ol type="a" class="collapse descricao" id="rec9">
+              <div class="row">
+                <div class="col-md-5 col-sm-12">
+                  <strong class="descricao">Componente</strong>
+                  <p class="descricao">Devido ao tamanho das telas dos dispositivos móveis, o conteúdo das aplicações
+                    móveis exige uma carga cognitiva maior. Desse modo, há necessidade de diminuir a quantidade de
+                    cliques efetuados pelo usuário, como também a quantidade de informações apresentada na tela do
+                    dispositivo.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <img src="img/regra/regra1.jpg">
+                </div>
+              </div>
+              <!-- Texto que pega a linha inteira -->
+              <div class="row">
+                <div class="col-md-12">
+                  <strong class="descricao">Comportamento </strong>
+                  <p class="descricao">(Ao tratar-se de um protótipo é válido anotar algumas especificações de uso
+                    pretendidas em bloco de notas e colar ao lado da funcionalidade a que se pretende usar, pois há
+                    interações, como preenchimento automático de campos, que não podem ser representados em protótipos
+                    de baixo de nível).</p>
+                </div>
+              </div>
+            </ol>
+          </li>
+        </ul>
 
-            <ul class="list-group  col-md-12">
-              <li class="list-group-item" data-toggle="collapse" data-target="#rec10">
-                <recomendacao>
-                  Recomendação 10: &nbsp;Concordância entre sistema e o mundo real
-                </recomendacao>
-                <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
-                <ol type="a" class="collapse" id="rec10">
-                  <p class="descricao">blablablalaballbaa</p>
-                </ol>
-              </li>
-            </ul>
+        <ul class="list-group  col-md-12">
+          <li class="list-group-item" data-toggle="collapse" data-target="#rec10">
+            <recomendacao>
+              Recomendação 10: &nbsp;Concordância entre sistema e o mundo real
+            </recomendacao>
+            <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
+            <ol type="a" class="collapse descricao" id="rec10">
+              <div class="row">
+                <div class="col-md-5 col-sm-12">
+                  <strong class="descricao">Componente</strong>
+                  <p class="descricao">Devido ao tamanho das telas dos dispositivos móveis, o conteúdo das aplicações
+                    móveis exige uma carga cognitiva maior. Desse modo, há necessidade de diminuir a quantidade de
+                    cliques efetuados pelo usuário, como também a quantidade de informações apresentada na tela do
+                    dispositivo.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <img src="img/regra/regra1.jpg">
+                </div>
+              </div>
+              <!-- Texto que pega a linha inteira -->
+              <div class="row">
+                <div class="col-md-12">
+                  <strong class="descricao">Comportamento </strong>
+                  <p class="descricao">(Ao tratar-se de um protótipo é válido anotar algumas especificações de uso
+                    pretendidas em bloco de notas e colar ao lado da funcionalidade a que se pretende usar, pois há
+                    interações, como preenchimento automático de campos, que não podem ser representados em protótipos
+                    de baixo de nível).</p>
+                </div>
+              </div>
+            </ol>
+          </li>
+        </ul>
 
-            <ul class="list-group  col-md-12">
-              <li class="list-group-item" data-toggle="collapse" data-target="#rec11">
-                <recomendacao>
-                  Recomendação 11: &nbsp;Funcionalidades de uso
-                </recomendacao>
-                <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
-                <ol type="a" class="collapse" id="rec11">
-                  <p class="descricao">blablablalaballbaa</p>
-                </ol>
-              </li>
-            </ul>
+        <ul class="list-group  col-md-12">
+          <li class="list-group-item" data-toggle="collapse" data-target="#rec11">
+            <recomendacao>
+              Recomendação 11: &nbsp;Funcionalidades de uso
+            </recomendacao>
+            <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
+            <ol type="a" class="collapse descricao" id="rec11">
+              <div class="row">
+                <div class="col-md-5 col-sm-12">
+                  <strong class="descricao">Componente</strong>
+                  <p class="descricao">Devido ao tamanho das telas dos dispositivos móveis, o conteúdo das aplicações
+                    móveis exige uma carga cognitiva maior. Desse modo, há necessidade de diminuir a quantidade de
+                    cliques efetuados pelo usuário, como também a quantidade de informações apresentada na tela do
+                    dispositivo.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <img src="img/regra/regra1.jpg">
+                </div>
+              </div>
+              <!-- Texto que pega a linha inteira -->
+              <div class="row">
+                <div class="col-md-12">
+                  <strong class="descricao">Comportamento </strong>
+                  <p class="descricao">(Ao tratar-se de um protótipo é válido anotar algumas especificações de uso
+                    pretendidas em bloco de notas e colar ao lado da funcionalidade a que se pretende usar, pois há
+                    interações, como preenchimento automático de campos, que não podem ser representados em protótipos
+                    de baixo de nível).</p>
+                </div>
+              </div>
+            </ol>
+          </li>
+        </ul>
 
-            <ul class="list-group  col-md-12">
-              <li class="list-group-item" data-toggle="collapse" data-target="#rec12">
-                <recomendacao>
-                  Recomendação 12: &nbsp;Ajuda e Documentação
-                </recomendacao>
-                <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
-                <ol type="a" class="collapse" id="rec12">
-                  <p class="descricao">blablablalaballbaa</p>
-                </ol>
-              </li>
-            </ul>
+        <ul class="list-group  col-md-12">
+          <li class="list-group-item" data-toggle="collapse" data-target="#rec12">
+            <recomendacao>
+              Recomendação 12: &nbsp;Ajuda e Documentação
+            </recomendacao>
+            <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
+            <ol type="a" class="collapse descricao" id="rec12">
+              <div class="row">
+                <div class="col-md-5 col-sm-12">
+                  <strong class="descricao">Componente</strong>
+                  <p class="descricao">Devido ao tamanho das telas dos dispositivos móveis, o conteúdo das aplicações
+                    móveis exige uma carga cognitiva maior. Desse modo, há necessidade de diminuir a quantidade de
+                    cliques efetuados pelo usuário, como também a quantidade de informações apresentada na tela do
+                    dispositivo.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <img src="img/regra/regra1.jpg">
+                </div>
+              </div>
+              <!-- Texto que pega a linha inteira -->
+              <div class="row">
+                <div class="col-md-12">
+                  <strong class="descricao">Comportamento </strong>
+                  <p class="descricao">(Ao tratar-se de um protótipo é válido anotar algumas especificações de uso
+                    pretendidas em bloco de notas e colar ao lado da funcionalidade a que se pretende usar, pois há
+                    interações, como preenchimento automático de campos, que não podem ser representados em protótipos
+                    de baixo de nível).</p>
+                </div>
+              </div>
+            </ol>
+          </li>
+        </ul>
 
-            <ul class="list-group  col-md-12">
-              <li class="list-group-item" data-toggle="collapse" data-target="#rec13">
-                <recomendacao>
-                  Recomendação 13: &nbsp;Elementos com finalizações rápidas
-                </recomendacao>
-                <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
-                <ol type="a" class="collapse" id="rec13">
-                  <p class="descricao">blablablalaballbaa</p>
-                </ol>
-              </li>
-            </ul>
+        <ul class="list-group  col-md-12">
+          <li class="list-group-item" data-toggle="collapse" data-target="#rec13">
+            <recomendacao>
+              Recomendação 13: &nbsp;Elementos com finalizações rápidas
+            </recomendacao>
+            <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
+            <ol type="a" class="collapse descricao" id="rec13">
+              <div class="row">
+                <div class="col-md-5 col-sm-12">
+                  <strong class="descricao">Componente</strong>
+                  <p class="descricao">Devido ao tamanho das telas dos dispositivos móveis, o conteúdo das aplicações
+                    móveis exige uma carga cognitiva maior. Desse modo, há necessidade de diminuir a quantidade de
+                    cliques efetuados pelo usuário, como também a quantidade de informações apresentada na tela do
+                    dispositivo.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <img src="img/regra/regra1.jpg">
+                </div>
+              </div>
+              <!-- Texto que pega a linha inteira -->
+              <div class="row">
+                <div class="col-md-12">
+                  <strong class="descricao">Comportamento </strong>
+                  <p class="descricao">(Ao tratar-se de um protótipo é válido anotar algumas especificações de uso
+                    pretendidas em bloco de notas e colar ao lado da funcionalidade a que se pretende usar, pois há
+                    interações, como preenchimento automático de campos, que não podem ser representados em protótipos
+                    de baixo de nível).</p>
+                </div>
+              </div>
+            </ol>
+          </li>
+        </ul>
 
-            <ul class="list-group  col-md-12">
-              <li class="list-group-item" data-toggle="collapse" data-target="#rec14">
-                <recomendacao>
-                  Recomendação 14: &nbsp;Linguagem
-                </recomendacao>
-                <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
-                <ol type="a" class="collapse" id="rec14">
-                  <p class="descricao">blablablalaballbaa</p>
-                </ol>
-              </li>
-            </ul>
+        <ul class="list-group  col-md-12">
+          <li class="list-group-item" data-toggle="collapse" data-target="#rec14">
+            <recomendacao>
+              Recomendação 14: &nbsp;Linguagem
+            </recomendacao>
+            <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
+            <ol type="a" class="collapse descricao" id="rec14">
+              <div class="row">
+                <div class="col-md-5 col-sm-12">
+                  <strong class="descricao">Componente</strong>
+                  <p class="descricao">Devido ao tamanho das telas dos dispositivos móveis, o conteúdo das aplicações
+                    móveis exige uma carga cognitiva maior. Desse modo, há necessidade de diminuir a quantidade de
+                    cliques efetuados pelo usuário, como também a quantidade de informações apresentada na tela do
+                    dispositivo.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <img src="img/regra/regra1.jpg">
+                </div>
+              </div>
+              <!-- Texto que pega a linha inteira -->
+              <div class="row">
+                <div class="col-md-12">
+                  <strong class="descricao">Comportamento </strong>
+                  <p class="descricao">(Ao tratar-se de um protótipo é válido anotar algumas especificações de uso
+                    pretendidas em bloco de notas e colar ao lado da funcionalidade a que se pretende usar, pois há
+                    interações, como preenchimento automático de campos, que não podem ser representados em protótipos
+                    de baixo de nível).</p>
+                </div>
+              </div>
+            </ol>
+          </li>
+        </ul>
 
-            <ul class="list-group  col-md-12">
-              <li class="list-group-item" data-toggle="collapse" data-target="#rec15">
-                <recomendacao>
-                  Recomendação 15: &nbsp;Atividades recentes e Confiabilidade
-                </recomendacao>
-                <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
-                <ol type="a" class="collapse" id="rec15">
-                  <p class="descricao">blablablalaballbaa</p>
-                </ol>
-              </li>
-            </ul>
-          </div>
+        <ul class="list-group  col-md-12">
+          <li class="list-group-item" data-toggle="collapse" data-target="#rec15">
+            <recomendacao>
+              Recomendação 15: &nbsp;Atividades recentes e Confiabilidade
+            </recomendacao>
+            <span class="badge badge-primary badge-pill"><span class="fa fa-chevron-down"></span></span>
+            <ol type="a" class="collapse descricao" id="rec15">
+              <div class="row">
+                <div class="col-md-5 col-sm-12">
+                  <strong class="descricao">Componente</strong>
+                  <p class="descricao">Devido ao tamanho das telas dos dispositivos móveis, o conteúdo das aplicações
+                    móveis exige uma carga cognitiva maior. Desse modo, há necessidade de diminuir a quantidade de
+                    cliques efetuados pelo usuário, como também a quantidade de informações apresentada na tela do
+                    dispositivo.</p>
+                </div>
+                <div class="col-md-5 col-sm-12">
+                  <img src="img/regra/regra1.jpg">
+                </div>
+              </div>
+              <!-- Texto que pega a linha inteira -->
+              <div class="row">
+                <div class="col-md-12">
+                  <strong class="descricao">Comportamento </strong>
+                  <p class="descricao">(Ao tratar-se de um protótipo é válido anotar algumas especificações de uso
+                    pretendidas em bloco de notas e colar ao lado da funcionalidade a que se pretende usar, pois há
+                    interações, como preenchimento automático de campos, que não podem ser representados em protótipos
+                    de baixo de nível).</p>
+                </div>
+              </div>
+            </ol>
+          </li>
+        </ul>
+      </div>
 
     </div>
   </section>
 
   <!-- contact -->
- <!-- <section id="section-contact" class="section appear clearfix">
+  <!-- <section id="section-contact" class="section appear clearfix">
     <div class="container">
 
       <div class="row mar-bot40">
@@ -399,7 +697,7 @@
 
   <section id="footer" class="section footer">
     <div class="container">
-    <!--  <div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
+      <!--  <div class="row animated opacity mar-bot20" data-andown="fadeIn" data-animation="animation">
         <div class="col-sm-12 align-center">
           <ul class="social-network social-circle">
             <li><a href="#" class="icoRss" title="Rss"><i class="fa fa-rss"></i></a></li>
