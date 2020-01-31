@@ -337,8 +337,8 @@ a:hover {
 =========================== */
 
 section.section {
-	margin:0;
-	padding: 80px 0 60px 0;
+	margin: 30px 0px;
+    padding: 20px 0;
 }
 
 .bg-white {
@@ -451,9 +451,15 @@ h1 a.navbar-brand {
 	margin-top: -5px !important;
 }
 
+.photo-modo img {
+	max-width: 200px !important;
+	border-radius: 10px;
+	margin-top: 30px;
+}
 
-
-
+.text-left {
+	text-align: left;
+}
 /*===========================
   --- Featured section ----
 =========================== */
@@ -1073,8 +1079,6 @@ a.socialIcon:hover, .socialHoverClass {
 	border-bottom: 4px solid;
 }
 
-
-
 /* ========================================
 Media queries
 ========================================= */
@@ -1099,7 +1103,9 @@ Media queries
 	}
 }
 @media (max-width: 767px) {
+	/* .w-img {
 
+	} */
 	.navbar.navbar-fixed-top {
 		background-color:rgba(0,0,0,1);
 	}
@@ -1152,7 +1158,8 @@ section.featured h3.slogan {
 .descricao{
 	margin-top: 1em;
 }
-recomendacao{
+
+.recomendacao{
 	font-weight: 400;
 	cursor: pointer;
 }
@@ -1165,8 +1172,14 @@ recomendacao{
 	width: 300px;
 }
 
+.w-img img {
+	width: 100%;
+}
+
+
 @media (max-width: 576px) { 
 	.list-group-item img {
 		width: 100% !important;
 	}
 }
+
